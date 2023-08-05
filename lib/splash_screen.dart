@@ -43,13 +43,9 @@ class _SplashScreenState extends State<SplashScreen>
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/images/virtualAssistant.png',
-              width: 80,
-              height: 80,
-            ),
-            const Text(
+          children: const [
+            Icon(Icons.mic, size: 80,color: Colors.white,),
+            Text(
               'Cognito AI',
               style: TextStyle(
                 color: Colors.white,
